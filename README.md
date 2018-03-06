@@ -1,6 +1,6 @@
-# hapPywoRld
+# RversusPython
 
-A collection of exercises comparing R and Python by demonstrating how each accomplishes the same task.
+A collection of exercises comparing R and Python by demonstrating how each accomplishes the same task. Despite the name, this isn't a competition; they're just tools. Instead, the goal is to provide a basic resource walking through the fundamentals of each language as well (and admittedly as an opportunity for me to "relearn" Python and learn more about R).
 
 <img src="README_image.JPG" title='Credit to someone who cropped it from someone who copied it from someone who posted it somewhere on https://www.reddit.com/r/rstatsmemes/' width="300" style="display: block; margin: auto;" />
 
