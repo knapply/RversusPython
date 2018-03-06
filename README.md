@@ -1,2 +1,3 @@
 # hapPywoRld
-Accomplishing the same tasks in R and Python
+
+A collection of exercises comparing R and Python by demonstrating how each accomplishes the same task.
