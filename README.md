@@ -37,4 +37,6 @@ Exercises
     -   [p3\_input.py](Python/p3_input.py)
     -   [p3\_input.R](R/p3_input.R)
 
-Image credit to someone who cropped it from someone who copied it from someone who posted it somewhere on <https://www.reddit.com/r/rstatsmemes/>"
+<br><br><br><br>
+
+> Image credit to someone who cropped it from someone who copied it from someone who posted it somewhere on <https://www.reddit.com/r/rstatsmemes/>
