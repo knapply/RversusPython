@@ -5,6 +5,10 @@ date: "March 6, 2018"
 output: github_document
 ---
 
+<p align="center">
+  <img />
+</p>
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, 
                       fig.align = "center")
