@@ -36,6 +36,7 @@ print(paste("Lists: grades =", grades, "nameZ =", nameZ))
 cat("This is how your print ")
 cat("on the same line")
 
+# Output:
 # > source('~/hapPywoRld/R/output.R')
 # he
 # llo[1] "Hello Brendan"
