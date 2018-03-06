@@ -4,7 +4,7 @@ This is a collection of exercises comparing R and Python by demonstrating how ea
 
 Instead, the goal is to provide a basic resource that walks through some fundamentals in each language (and admittedly as an opportunity for me to "relearn" Python and learn more about R).
 
-<img src="README_image.JPG" title='Credit to someone who cropped it from someone who copied it from someone who posted it somewhere on https://www.reddit.com/r/rstatsmemes/' width="300" style="display: block; margin: auto;" />
+<img src="README_image.JPG" title='Credit to someone who cropped it from someone who copied it from someone who posted it somewhere on https://www.reddit.com/r/rstatsmemes/' width="300" style="display: block; margin: auto; align='middle' />
 
 
 1. Output: Program to show output
