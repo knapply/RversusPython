@@ -37,8 +37,8 @@ print("**************************************************")
 print("    Computer Science is Cool Stuff!!")
 
 '''
-Output:
-> system("python Python/p2_print_CS.py")
+Run:
+$ python Python/p2_print_CS.py
 ************************************************
 
             C C C                 S S S

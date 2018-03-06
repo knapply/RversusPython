@@ -22,12 +22,8 @@ print("which equals = %.2f" %weight_kg, end = " ")
 print("kilograms")
 
 '''
-Output:
-Windows@DESKTOP-36QPOJ8  ~/Documents/RversusPython
-$ cd Python
-Windows@DESKTOP-36QPOJ8  ~/Documents/RversusPython/Python
-$ python p3_input.py
-
+Run:
+$ python Python/p3_input.py
 Please enter your name: Brendan
 Please enter your weight in lbs: 560
 Please enter your age (whole number): 12

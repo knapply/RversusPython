@@ -29,8 +29,8 @@ print("This is how your print", end = " ")
 print("on the same line")
 
 '''
-Output:
-> system("python Python/output.py")
+Run:
+$ python Python/p1_output.py
 hello world
 hello world
 he

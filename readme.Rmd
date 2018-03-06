@@ -41,8 +41,11 @@ Instead, the goal is to provide a basic resource that walks through some fundame
     + [p3_input.py](Python/p3_input.py)
     + [p3_input.R](R/p3_input.R)
 
+## 4. Print "C" with Input
 
-
+* Write a program that prints out "CS!" in large block letters inside a border of `***`, using user input for letter selection.
+    + [p4_print_C_any_letter.py](Python/p4_print_C_any_letter.py)
+    + [p4_print_C_any_letter.R](R/p4_print_C_any_letter.R)
 
 
 
