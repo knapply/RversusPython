@@ -1,4 +1,4 @@
-# output.py
+# p1_output.py
 # Brendan Knapp
 # 2018-03-06
 # Python 3.6.4
