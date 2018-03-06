@@ -14,21 +14,22 @@
 'hello world'        # single quote
 "hello world"        # double quote
 cat("he\nllo")       # \n insert a new line (same as pressing Enter)
-                     # R's `cat()` concatenates and object before printing
+                     # R's `cat()` concatenates an object before printing
                        # it performs less conversion than R's `print()`
 
-my_name <- "Brendan"             # declare/initialize string variable `my_name`
-weight <- 250.34152              # declare/initialize numeric/double variable `weight`
-                                   # by default, R initializes numbers as doubles/numerics
-age <- 30L                       # declare/initialize integer variable `age`
-                                   # in R, we have to explicitly denote integers by ending
-                                    # them with `L` 
-                                   # we can also use `as.integer()`
-grades <- c(90, 77, 88)          # in R, we can `c()`ombine objects of the same type 
-                                  # into vectors
+my_name <- "Brendan"          # declare/initialize character(pronounced string :| variable `my_name`
+weight <- 250.34152           # declare/initialize numeric/double variable `weight`
+                               # by default, R initializes numbers as doubles/numerics
+
+age <- 30L                    # declare/initialize integer variable `age`
+                               # in R, we have to explicitly denote integers by ending
+                                # them with `L` 
+                                 # we can also use `as.integer()`
+grades <- c(90, 77, 88)       # in R, we can `c()`ombine objects of the same type into vectors
+                               # but we can also use `list()` to combine all kinds of objects
 nameZ <- c("Brendan", "Knapp")
 
-print(paste("Hello", my_name))  # `paste()` before `print()`
+print(paste("Hello", my_name))  # `paste()` before `print()`ing multiple objects
 print(paste("Your weight is", weight, "and your age is", age))
 print(paste("Your weight is", weight, "and your age is", age))
 print(paste("Lists: grades =", grades, "nameZ =", nameZ))
