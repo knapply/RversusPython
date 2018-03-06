@@ -1,7 +1,7 @@
 # p2_print_CS.R
 # Brendan Knapp
 # 2018-03-06
-# Python 3.6.4
+# R 3.4.3
 # Description: Write a program that prints out "CS!" in large block letters inside 
 #              a border of *** followed by two blank lines then the message 
 #              "Computer Science is Cool Stuf" as shown below:

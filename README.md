@@ -13,3 +13,6 @@ Instead, the goal is to provide a basic resource that walks through some fundame
 2. Print "CS": Write a program that prints out "CS!" in large block letters inside a border of `***`
     * [p2_print_CS.py](Python/p2_print_CS.py)
     * [p2_print_CS.R](R/p2_print_CS.R)
+3. Input: Take some user input and perform some operations before providing output
+    * [p3_input.py](Python/p3_input.py)
+    * [p3_input.R](R/p3_input.R)

@@ -1,7 +1,7 @@
 # p1_output.R
 # Brendan Knapp
 # 2018-03-06
-# Python 3.4.3
+# R 3.4.3
 # Description: Program to show output in R
 
 # 1) Convert output.py to an output.R program
