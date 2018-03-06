@@ -6,6 +6,7 @@ Brendan @syknapptic Knapp
     -   [1. Output](#output)
     -   [2. Print "CS"](#print-cs)
     -   [3. Input](#input)
+    -   [4. Print "C" with Input](#print-c-with-input)
 
 <img src="README_image.JPG" width="335" style="display: block; margin: auto;" />
 
@@ -36,6 +37,13 @@ Exercises
 -   Take some user input and perform some operations before providing output
     -   [p3\_input.py](Python/p3_input.py)
     -   [p3\_input.R](R/p3_input.R)
+
+4. Print "C" with Input
+-----------------------
+
+-   Write a program that prints out "CS!" in large block letters inside a border of `***`, using user input for letter selection.
+    -   [p4\_print\_C\_any\_letter.py](Python/p4_print_C_any_letter.py)
+    -   [p4\_print\_C\_any\_letter.R](R/p4_print_C_any_letter.R)
 
 <br><br><br><br>
 
