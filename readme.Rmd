@@ -47,6 +47,12 @@ Instead, the goal is to provide a basic resource that walks through some fundame
     + [p4_print_C_any_letter.py](Python/p4_print_C_any_letter.py)
     + [p4_print_C_any_letter.R](R/p4_print_C_any_letter.R)
 
+## 5. Sum and Product
+
+* Write a program which computes the sum and product of two numbers entered by the user.
+    + [p5_sum_product.py](python/p5_sum_product.py)
+    + [p5_sum_product.R](R/p5_sum_product.R)
+
 
 
 <br><br><br><br>

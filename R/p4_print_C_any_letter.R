@@ -1,4 +1,4 @@
-# p4_print_C_any_letter.py
+# p4_print_C_any_letter.R
 # Brendan Knapp
 # 2018-03-06
 # R 3.4.3
