@@ -32,6 +32,7 @@ def sum_score(rolls):
   summed = 0
   for dice in rolls:
     summed += dice
+    
   return(summed)
 
 def roll():
