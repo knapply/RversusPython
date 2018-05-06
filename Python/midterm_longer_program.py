@@ -33,22 +33,19 @@ def all_equal(values):
   for val in values:
     if not val in vals:
       vals.append(val)
-  if get_length(vals) > 1:
-    return(False)
-  else:
-    return(True)
+  result = True if get_length(vals) == 1 else False
+  return(result)
 
 def is_rhombus(sides, angles):
   all_sides_are_equal = all_equal(sides)
-  is_90_degrees = []
-  for angle in angles:
-    if angle == 90:
-      is_90_degrees.append(angle)
-  no_90_degree_angles = True if get_length(is_90_degrees) == 0 else False
+  # is_90_degrees = []
+  # for angle in angles:
+    # if angle == 90:
+      # is_90_degrees.append(angle)
+  # no_90_degree_angles = True if get_length(is_90_degrees) == 0 else False
   angle1_equals_angle3 = True if angles[0] == angles[2] else False
   angle2_equals_angle4 = True if angles[1] == angles[3] else False
-  return(all_are([all_sides_are_equal, no_90_degree_angles,
-                 angle1_equals_angle3, angle2_equals_angle4]))
+  return(all_are([all_sides_are_equal, angle1_equals_angle3, angle2_equals_angle4]))
   
 def is_square(sides, angles):
   all_sides_are_equal = all_equal(sides)
@@ -63,52 +60,22 @@ def is_rectangle(sides, angles):
   
 def get_val(i, which):
   inputted = float(input("Please enter {} #{}: ".format(which[:-1], i + 1)))
-  if not is_positive(inputted):
-      print("Value must be positive!", end = " ")
-      get_val(i, which)
   return(inputted)
     
 def get_4_values(which):
   print("=== Please enter {} ===".format(which.upper()))
   vals = []
   for i in range(0, 4, 1):
-    inputted = get_val(i, which)
+    neg_input = True
+    while neg_input:
+      inputted = get_val(i, which)
+      if is_positive(inputted):
+        neg_input = False
+      else:
+        print("Value must be positive!", end = " ")
     vals.append(inputted)
   print()
   return(vals)
-
-# def get_input(which):
-#   values = get_4_values(which)
-#   return(values)
-  # raw = get_4_values(which)
-  # if not length_is_valid(raw):
-  #   print("You inputted {} value(s) instead of 4.".format(get_length(raw)))
-  #   retry = input("Would you like to try again? (y/n) ")
-  #   if retry == "y":
-  #     return(get_input(which))
-  #   else:
-  #     quit()
-  # else:
-  #   try:
-  #     values = list(map(float, raw))
-  #   except:
-  #     print("Your {} aren't numbers.".format(which))
-  #     retry = input("Would you like to try again? (y/n) ")
-  #     if retry == "y":
-  #       return(get_input(which))
-  #     else:
-  #       quit()
-  # 
-  # if not all_positive(values):
-  #   neg = [val for val in values if not is_positive(val)][0]
-  #   print("{} is not a positive value...".format(neg))
-  #   retry = input("Would you like to try again? (y/n) ")
-  #   if retry == "y":
-  #     get_input(which = which)
-  #   else:
-  #     quit()
-  # else:
-  #   return(values)
 
 # main
 def get_shape():
@@ -131,6 +98,54 @@ def get_shape():
 # run
 get_shape()
 
+'''
+=== Please enter SIDES ===
+Please enter side #1: -1
+Value must be positive! Please enter side #1: 1
+Please enter side #2: 1
+Please enter side #3: -1
+Value must be positive! Please enter side #3: 1
+Please enter side #4: 1
+
+=== Please enter ANGLES ===
+Please enter angle #1: -1
+Value must be positive! Please enter angle #1: 90
+Please enter angle #2: 90
+Please enter angle #3: -1
+Value must be positive! Please enter angle #3: 90
+Please enter angle #4: 90
+
+This is a SQUARE!
+Would you like to repeat? (1-Yes, 2-No): 1
+=== Please enter SIDES ===
+Please enter side #1: 1
+Please enter side #2: 1
+Please enter side #3: 1
+Please enter side #4: 1
+
+=== Please enter ANGLES ===
+Please enter angle #1: 120
+Please enter angle #2: 60
+Please enter angle #3: 120
+Please enter angle #4: 60
+
+This is a RHOMBUS!
+Would you like to repeat? (1-Yes, 2-No): 1
+=== Please enter SIDES ===
+Please enter side #1: 10
+Please enter side #2: 20
+Please enter side #3: 10
+Please enter side #4: 20
+
+=== Please enter ANGLES ===
+Please enter angle #1: 90
+Please enter angle #2: 90
+Please enter angle #3: 90
+Please enter angle #4: 90
+
+This is a RECTANGLE!
+Would you like to repeat? (1-Yes, 2-No): 2
+'''
 
     
 

@@ -18,3 +18,12 @@ for word in sentence[::-1]:
   rev_file.write(word + " ")
 
 rev_file.close()
+
+rev_file = open("p_47_reverse.txt", "r").read()
+print(rev_file)
+
+'''
+Please enter a sentence: one two three four
+four three two one
+'''
+

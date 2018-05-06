@@ -18,7 +18,7 @@ my_file = open("p_46_my_movies.txt", "w")
 top_4_movies = []
 
 for i in range(1, 5):
-  top_4_movies.append(input("What's your {} st/nd/rd favorite movie? ".format(i)))
+  top_4_movies.append(input("What's your #{} favorite movie? ".format(i)))
 
 for j in top_4_movies:
   my_file.write(j + "\n")
@@ -35,10 +35,10 @@ for i in my_file_as_list[::-1]:
   reverse_order_file.write(i + "\n")
   
 '''
-What's your 1 st/nd/rd favorite movie?lord of the rings
-What's your 2 st/nd/rd favorite movie?the iron giant
-What's your 3 st/nd/rd favorite movie?zoolander
-What's your 4 st/nd/rd favorite movie?cloud atlas
-['lord of the rings', 'the iron giant', 'zoolander', 'cloud atlas']
+What's your #1 favorite movie? lord of the rings
+What's your #2 favorite movie? a goofy movie
+What's your #3 favorite movie? mars attacks
+What's your #4 favorite movie? emperor's new groove
+['lord of the rings', 'a goofy movie', 'mars attacks', "emperor's new groove"]
 '''
 
